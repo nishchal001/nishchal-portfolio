@@ -41,6 +41,21 @@ export default function Home() {
             </ul>
           </div>
         </motion.div>
+
+  <motion.div
+    initial={{ opacity: 0, y: 10 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ delay: 0.05 }}
+    className="bg-gray-900/50 p-6 rounded-lg"
+  >
+    <h2 className="text-xl font-semibold text-green-200 mb-2">Education</h2>
+    <div className="text-gray-300">
+      <p className="font-semibold">Marwadi University — Junagadh, Gujarat</p>
+      <p className="text-sm">Bachelor of Technology (B.Tech) in Computer Science</p>
+      <p className="text-sm">Graduated: 2023</p>
+    </div>
+  </motion.div>
+</section>
   
 
         <motion.div initial={{opacity:0,y:10}} animate={{opacity:1,y:0}} transition={{delay:0.1}} className="bg-gray-900/50 p-6 rounded-lg">
