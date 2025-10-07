@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </motion.div>
 
-      <section id="Education" className="mt-12 grid md:grid-cols-2 gap-6">
+      <section id="education" className="mt-12 grid md:grid-cols-2 gap-6">
         <motion.div initial={{opacity:0,y:10}} animate={{opacity:1,y:0}} transition={{delay:0.05}} className="bg-gray-900/50 p-6 rounded-lg">
           <h2 className="text-xl font-semibold text-green-200 mb-2">Education</h2>
           <div className="text-gray-300">
