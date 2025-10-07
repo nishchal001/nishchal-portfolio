@@ -55,7 +55,6 @@ export default function Home() {
       <p className="text-sm">Graduated: 2023</p>
     </div>
   </motion.div>
-</section>
   
 
         <motion.div initial={{opacity:0,y:10}} animate={{opacity:1,y:0}} transition={{delay:0.1}} className="bg-gray-900/50 p-6 rounded-lg">
