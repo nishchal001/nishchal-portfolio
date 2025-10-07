@@ -8,6 +8,7 @@ export default function Navbar(){
         <Link href="/" className="font-semibold text-lg">Nishchal Chotai</Link>
         <nav className="hidden md:flex gap-4 items-center">
           <a href="#experience" className="text-sm text-gray-300 hover:text-green-300">Experience</a>
+          <a href="#education" className="text-sm text-gray-300 hover:text-green-300">Education</a>
           <a href="#skills" className="text-sm text-gray-300 hover:text-green-300">Skills</a>
           <a href="#projects" className="text-sm text-gray-300 hover:text-green-300">Projects</a>
           <a href="#contact" className="text-sm text-gray-300 hover:text-green-300">Contact</a>
