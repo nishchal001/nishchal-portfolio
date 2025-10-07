@@ -41,6 +41,19 @@ export default function Home() {
           </div>
         </motion.div>
 
+      <section id="Education" className="mt-12 grid md:grid-cols-2 gap-6">
+        <motion.div initial={{opacity:0,y:10}} animate={{opacity:1,y:0}} transition={{delay:0.05}} className="bg-gray-900/50 p-6 rounded-lg">
+          <h2 className="text-xl font-semibold text-green-200 mb-2">Education</h2>
+          <div className="text-gray-300">
+            <p className="font-semibold">BTech Computer Engineering</p>
+            <ul className="list-disc ml-5 mt-2 space-y-1">
+              <li>Participation in hackathons.</li>
+              <li>Completed final year project of Remote Cowatching application using flutter.</li>
+              <li>Cleared all the semester in first class with distinction</li>
+            </ul>
+          </div>
+        </motion.div>
+
         <motion.div initial={{opacity:0,y:10}} animate={{opacity:1,y:0}} transition={{delay:0.1}} className="bg-gray-900/50 p-6 rounded-lg">
           <h2 className="text-xl font-semibold text-green-200 mb-2">Skills & Expertise</h2>
           <div className="flex flex-wrap gap-2">
